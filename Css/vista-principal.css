@@ -1,0 +1,30 @@
+.vista-principal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../yoga-img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+.vista-principal::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--verde_inicio);
+}
+
+
+/* .img{
+    background-color: var(--verde_inicio);
+
+    height: 100vh;
+    width: 100vh;
+    object-fit: contain;
+    z-index: 0;
+} */
+
+
+  
