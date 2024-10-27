@@ -12,10 +12,9 @@
 }
 :root{
     --verde_inicio: rgb(170, 206, 185);
-    --morado_oscuro: rgb(63, 57, 79);
+    --morado_oscuro: rgba(67, 57, 80, 0.80);
     --verde_claro:rgba(208, 255, 231, 0.955);
     --blanco:#fbfbfb;
     --gris_claro:#e1e1e1;
     --negro:#000;
-
 }
