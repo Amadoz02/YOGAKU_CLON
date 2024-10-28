@@ -1,8 +1,12 @@
+
 @import url(2_vista-members.css);
+@import url(vista-principal.css);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .yoga{
@@ -11,10 +15,12 @@
     grid-template-columns: auto;
 }
 :root{
-    --verde_inicio: rgb(170, 206, 185);
-    --morado_oscuro: rgba(67, 57, 80, 0.80);
+
+    --verde_inicio: rgba(0, 129, 60, 0.281);
+    --morado_oscuro: rgb(49, 42, 67);
     --verde_claro:rgba(208, 255, 231, 0.955);
     --blanco:#fbfbfb;
     --gris_claro:#e1e1e1;
     --negro:#000;
 }
+
