@@ -2,6 +2,7 @@
 @import url(2_vista-members.css);
 @import url(3_vista-rutins.css);
 @import url(4_vista_instructor.css);
+@import url(6_vista_precios.css);
 
 *{
   margin: 0;
