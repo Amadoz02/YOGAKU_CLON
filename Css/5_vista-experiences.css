@@ -1,0 +1,54 @@
+.vista-experieces{
+    gap: 10vw;
+    background-color: var(--gris_claro);
+    color: var(--morado_oscuro);
+    z-index: 2;
+    padding: 10px 0;
+}
+.vista-experieces::before{
+    content: '';
+    position: absolute; 
+    background-position: 100% 180%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/img_vista_5/flores_vista5.png);
+    z-index: -1; 
+}
+.content-img{
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 3% 0;
+    overflow: auto;
+    
+
+}
+.button--experiences{
+    min-width: 300px;
+}
+.content-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5vw;
+    max-height: 80%;
+}
+.content-text h2, .content-text p{
+    text-align: left;
+}
+@media (max-width: 800px){
+    .vista-experieces{
+        flex-direction: column;
+        gap: 0;
+    }
+    .content-text{
+        width: 40%;
+    }
+    .content-img{
+        padding: 10px 0;
+        height: 50%;
+    }
+}
