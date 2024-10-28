@@ -2,14 +2,81 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+  </style>
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+  rel="stylesheet"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>YOGAKU</title>
   <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
   <main class="yoga">
-    <section class="vista-princial"></section>
-    <section class="vista-members"></section>
+
+    <section class="vista-principal fondo-vista fondo-vista__principal">
+      <header class="principal_header">
+        <a href="" class="header_logo">
+          <img src="logo.png" alt="" class="logo">
+        </a>
+        <nav class="header__nav">
+          <ul class="nav__lista">
+            <li class="lista__item texto">
+              <a href="#">Home</a>
+            </li>
+            <li class="lista__item texto">
+              <a href="#">Product</a>
+            </li>
+            <li class="lista__item texto">
+              <a href="#">Promo</a>
+            </li>
+            <li class="lista__item  texto">
+              <a href="#">About</a>
+            </li>
+            <li class="lista__item texto">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icono icono__lupa">
+          <i class="ri-search-line"></i>
+        </div>
+      </header>
+      <div class="vista-principal__contenido">
+        <h1 class="title title--page-principal">NEW EXPERIENCE</h1>
+        <p class="texto texto--page-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, delectus consequuntur debitis modi exercitationem. Laboriosam.</p>
+        <a class="button button--register" href="#" >REGISTER NOW</a>
+        <div class="check check--paginas">
+          <input type="radio" id="page" class="radio-page" name="opcion" checked>
+          <label for="page1"></label>
+          <input type="radio" id="page2" class="radio-page" name="opcion">
+          <label for="page2"></label>
+          <input type="radio" id="page3" class="radio-page" name="opcion">
+          <label for="page3"></label>
+        </div>
+      </div>
+    </section>
+    <section class="vista-members">
+      <div class="stats-title-container">
+        <h1 class="stats-title-container__title">OUR STATS</h1>
+        <p class="stats-title-container__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum consequuntur dolorum totam, reprehenderit voluptatem laudantium ad et repellendus nemo dolores, ut eius error!</p>
+      </div>
+      <div class="stat-content">
+        <div class="stat-content__box">
+          <h1 class="stats-title-container__title stats-title-container__title--letra-tamaño_espaciado-disminuido">1.534</h1>
+          <p class="stats-title-container__texto">Active Members</p>
+        </div>
+        <div class="stat-content__box">
+          <h1 class="stats-title-container__title stats-title-container__title--letra-tamaño_espaciado-disminuido">99</h1>
+          <p class="stats-title-container__texto">Yoga Country</p>
+        </div>
+        <div class="stat-content__box">
+          <h1 class="stats-title-container__title stats-title-container__title--letra-tamaño_espaciado-disminuido">150</h1>
+          <p class="stats-title-container__texto">Workshop</p>
+        </div>
+      </div>
+    </section>
     <section class="vista-rutins"></section>
 
     <section class="vista-instructor">
