@@ -1,0 +1,58 @@
+.vista-instructor{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--blanco);
+  background-image: url(../imagenes/img_vista_4/imagen_flores_vista_instructor.png);
+  background-repeat: no-repeat;
+  background-position: bottom -270px left;
+  position: relative;
+}
+.vista-instructor-contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  padding: 40px 10px 10px 40px;
+}
+
+.vista-instructor-contenido__title{
+  font-size: 6rem;
+  width: 50%;
+  text-align: start;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: var(--morado_oscuro);
+}
+
+.vista-instructor-contenido__texto{
+  width: 60%;
+  font-size: 1.6rem;
+  text-align: start;
+  color: var(--morado_oscuro);
+  margin-bottom: 60px;
+}
+
+.vista-instructor-contenido__button{
+  background-color: var(--morado_oscuro);
+  text-align: center;
+  max-width: 350px;
+  max-height: 100px;
+  padding: 10px 45px;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: none;
+  color: var(--blanco);
+  white-space: nowrap;
+  text-decoration: none;
+}
+.vista-instructor-content-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vista-instructor-content-img__imagen{
+  width: 100%;
+}
