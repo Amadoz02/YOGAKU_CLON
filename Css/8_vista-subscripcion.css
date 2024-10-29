@@ -39,7 +39,7 @@
 .vista-subscripcion_content_form__formulario{
     width: 25%;
     height: 50%;
-    background-color: #edf3f8;
+    background-color: var(--blanco);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     display: flex;
