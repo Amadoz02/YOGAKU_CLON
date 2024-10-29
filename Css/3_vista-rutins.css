@@ -1,13 +1,6 @@
-.vista{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
+
 .vista--rutins{
+    flex-direction: column;
     background-color: var(--verde_claro);
     z-index: 1;
     padding: 15px 0;
@@ -22,9 +15,6 @@
     background-position: -10% 180%;
     background-repeat: repeat-x;
     z-index: 2;
-}
-.vista>*{
-    z-index: 5;
 }
 
 .vista__title-text{
@@ -41,7 +31,7 @@ gap: 20px;
     color: var(--morado_oscuro);
 }
 .vista__title--segundario{
-font-size: 4rem;
+font-size: 5rem;
 }
 
 .vista__cards{
