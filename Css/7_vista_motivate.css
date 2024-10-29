@@ -15,19 +15,11 @@
     height: 100%;
     background-color: var(--morado_fondo_oscuro);
     z-index: 2;
-
-}
-.vista-frases-motivacion::after{
-    content: "";
-    position: absolute;
-    width: 1500px;
-    height: 2500px;
-    z-index: 3;
     background-image: url(../imagenes/img_vista_4/imagen_flores_vista_instructor.png);
     background-repeat: no-repeat;
-    background-position: 100% 80%;
-    transform: rotate(-30deg);
+    background-position: right 400%;
 }
+
 .vista-frases-motivacion__contenido{
     display: flex;
     flex-direction: column;

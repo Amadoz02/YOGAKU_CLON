@@ -72,6 +72,9 @@ font-size: 5rem;
     height: fit-content;
     gap: 20px;
 }
+.text__titulo{
+    white-space: nowrap;
+}
 .text__lore{
     font-size: 1.1rem;
     color: var(--morado_oscuro);

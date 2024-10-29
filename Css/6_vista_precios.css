@@ -30,8 +30,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    width: auto;
     height: 50%;
-    width: 80%;
     gap: 20px;
     margin: 35px 10px;
     color: var(--morado_oscuro);

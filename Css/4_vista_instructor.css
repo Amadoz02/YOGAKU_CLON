@@ -54,5 +54,6 @@
   align-items: center;
 }
 .vista-instructor-content-img__imagen{
-  width: 100%;
+  width: auto;
+  max-height: 80vh;
 }
