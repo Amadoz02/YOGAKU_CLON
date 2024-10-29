@@ -1,11 +1,5 @@
 .vista--principal {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../imagenes/img_vista_1/fondo_vista1.png);
