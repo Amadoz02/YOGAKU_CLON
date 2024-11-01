@@ -8,7 +8,7 @@
   background-image: url(../imagenes/img_vista_2/ajustada.png);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 10;
+  z-index: 1;
   position: relative;
 }
 .vista-members::before{
@@ -16,7 +16,7 @@
   top: 0;
   left: 0;
   background-color: var(--morado_fondo_oscuro);
-  z-index: 10;
+  z-index: 1;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -29,20 +29,19 @@
   text-align: center;
   width: 60%;
   height: 35%;
-  z-index: 15;
+  z-index: 2;
 }
-.stats-title-container__title{
+.vista__title--blanco_espacio_abajo{
   color: var(--blanco);
   font-size: 4.5rem;
   margin-bottom: 25px;
 }
-.stats-title-container__title--letra-tamaño_espaciado-disminuido{
+.stat-content__box .vista__title--blanco_espaciado-disminuido{
+  color: var(--blanco);
+  font-size: 4.5rem;
   margin-bottom: 10px;
 }
-.stats-title-container__texto{
-  color: var(--blanco);
-  font-size: 1.6rem;
-}
+
 .stat-content{
   display: flex;
   align-items: center;
@@ -50,6 +49,7 @@
   width: 75%;
   height: 45%;
   z-index: 15;
+  gap: 2vw;
 }
 .stat-content__box{
   display: flex;

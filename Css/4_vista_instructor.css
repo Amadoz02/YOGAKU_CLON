@@ -1,7 +1,7 @@
-.vista-instructor{
+.yoga .vista-instructor{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--blanco);
   background-image: url(../imagenes/img_vista_4/imagen_flores_vista_instructor.png);
   background-repeat: no-repeat;
@@ -11,29 +11,22 @@
 .vista-instructor-contenido{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: baseline;
   width: 50%;
-  height: 100%;
-  padding: 40px 10px 10px 40px;
+  padding: 40px  6vw;
+  height: fit-content;
+  gap: 3vw;
 }
-
-.vista-instructor-contenido__title{
-  font-size: 6rem;
-  width: 50%;
-  text-align: start;
-  font-weight: 800;
-  margin-bottom: 20px;
+.vista-instructor-contenido .vista__title--morado_alineado_inicio{
   color: var(--morado_oscuro);
+  text-align: start;
 }
-
-.vista-instructor-contenido__texto{
-  width: 60%;
-  font-size: 1.6rem;
+.vista-instructor-contenido .texto--morado{
   text-align: start;
   color: var(--morado_oscuro);
-  margin-bottom: 60px;
 }
-
+/* 
 .vista-instructor-contenido__button{
   background-color: var(--morado_oscuro);
   text-align: center;
@@ -47,7 +40,7 @@
   color: var(--blanco);
   white-space: nowrap;
   text-decoration: none;
-}
+} */
 .vista-instructor-content-img{
   display: flex;
   justify-content: center;
