@@ -22,9 +22,8 @@
   color: var(--morado_oscuro);
   text-align: start;
 }
-.vista-instructor-contenido .texto--morado{
+.vista-instructor-contenido .texto--izquierdo{
   text-align: start;
-  color: var(--morado_oscuro);
 }
 /* 
 .vista-instructor-contenido__button{

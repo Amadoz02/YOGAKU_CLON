@@ -79,7 +79,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 50vw;
-  gap: 10vh;
+  gap: 40px;
   height: calc(100vh - 150px);
 }
 
