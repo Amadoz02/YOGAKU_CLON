@@ -75,6 +75,15 @@ p.texto--blanco{
 }
 
 @media (max-width:900px){
+  .yoga{
+    height: fit-content;
+  }
+  .check{
+    z-index: 10;
+  }
+  .vista__title{
+    font-size: 3rem;
+  }
   /* primera vista  */
   .lista__item{
     min-width: 60px;
