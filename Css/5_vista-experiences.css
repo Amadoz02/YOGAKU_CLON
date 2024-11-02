@@ -1,7 +1,6 @@
 .vista-experieces{
     gap: 10vw;
     background-color: var(--gris_claro);
-    color: var(--morado_oscuro);
     z-index: 2;
     padding: 10px 0;
 }

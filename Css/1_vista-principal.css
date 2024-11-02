@@ -79,7 +79,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 50vw;
-  gap: 10vh;
+  gap: 40px;
   height: calc(100vh - 150px);
 }
 
@@ -117,28 +117,3 @@
     background-color: var(--verde_claro);
 }
 
-@media (max-width:800px){
-  .lista__item{
-    min-width: 60px;
-    font-size: 1rem;
-  }
-  .principal_header{
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    &::-webkit-scrollbar-thumb{
-      background-color: var(--verde_inicio);
-      border-radius: 10px;
-    }
-    &::-webkit-scrollbar-track{
-      background-color: var(--verde_claro);
-    }
-    &::-webkit-scrollbar{
-      height: 10px;
-      background-color: none;
-    }
-  }
-  .vista-principal__contenido{
-    margin-top: 110px;
-  }
-}

@@ -18,17 +18,14 @@
 }
 
 .vista__title-text{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-width: 60%;
-height: 35%;
-gap: 20px;
-}
-.vista__title-text--members{
-    color: var(--morado_oscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 35%;
+    gap: 20px;
 }
 .vista__title--segundario{
 font-size: 5rem;
@@ -45,6 +42,7 @@ font-size: 5rem;
     gap: 20px;
     margin: 20px 10px;
     color: var(--morado_oscuro);
+    
 }
 .card-content{
     width: 25%;
