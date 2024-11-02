@@ -51,6 +51,11 @@ font-size: 5rem;
     border-radius: 0 0 10px 10px;
     margin: 0 25px;
 }
+.card-content:hover{
+    box-shadow:  8px 8px 16px var(--morado_oscuro),
+                -8px -8px 16px var(--blanco);
+    transition: box-shadow 0.5s;
+}
 .card-content__img{
     height: 50%;
     width: 100%;

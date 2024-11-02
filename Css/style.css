@@ -52,6 +52,19 @@ p.texto--blanco{
   white-space: nowrap;
   text-decoration: none;
   text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.vista .button:hover{
+  background-color: var(--morado_fondo_oscuro);
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px var(--gris_oscuro);
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+.vista .button:active{
+  background-color: var(--verde_inicio);
+  transform: scale(1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px var(--negro_semitransparente);
 }
 .vista{
   display: flex;

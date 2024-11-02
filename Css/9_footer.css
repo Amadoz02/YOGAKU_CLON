@@ -63,12 +63,17 @@ footer.vista-info-contact{
     gap: 16px;
     margin: 20px 0;
     justify-content: flex-start;
-
+}
+.listas-footer .lista-footer__item:hover{
+    text-shadow: 0px 0px 8px var(--verde_claro_neon),
+    0px 0px 9px var(--verde_claro),
+    0px 0px 10px var(--verde_claro_neon),
+    0px 0px 11px var(--verde_claro_neon),
+    0px 0px 12px var(--verde_claro_neon);
 }
 .item__link{
     color: var(--blanco);
     text-decoration: none;
-    font-size: 1.5;
 }
 .item__link--iconos{
     text-decoration: none;

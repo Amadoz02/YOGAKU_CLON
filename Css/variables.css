@@ -1,10 +1,12 @@
 :root{
-
     --verde_claro: #c7f0db;
+    --verde_claro_neon:#66FFB2;
     --morado_fondo_oscuro:rgba(67, 57, 80, 0.80);
     --verde_inicio: rgba(0, 129, 60, 0.281);
     --morado_oscuro: rgb(49, 42, 67);
     --blanco:#fbfbfb;
     --gris_claro:#e1e1e1;
+    --gris_oscuro:#686D76;
     --negro:#000;
+    --negro_semitransparente:rgba(0, 0, 0, 0.7);
   }
