@@ -1,14 +1,15 @@
-.vista-frases-motivacion {
+.yoga section.vista--frases-motivacion {
+    width: 100vw;
+    height: 100vh;
     flex-direction: column;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../imagenes/img_vista_7/fondo_vista_7_edit.png);
-    z-index: 1;
     color: var(--blanco);
     justify-content: flex-start; 
 }
-.vista-frases-motivacion::before{
+.vista--frases-motivacion::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -35,4 +36,22 @@
 .vista-frases-motivacion__titulo{
     font-size: 2.5rem;
     font-weight: 700;
+}
+@media (max-width:900px){
+    .yoga section.vista--frases-motivacion{
+        background-image: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .vista--frases-motivacion::before{
+        background-image: none;
+    }
+    .vista--frases-motivacion .vista-frases-motivacion__contenido{
+        font-size: 1.8rem;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px 10px 30px;
+        gap: 5vw;
+    }
 }

@@ -42,8 +42,9 @@ p.texto--blanco{
 .button {
   background-color: var(--morado_oscuro);
   max-width: 350px;
+  min-width: 210px;
   max-height: 100px;
-  padding: 10px 45px;
+  padding: 10px 3vw;
   border-radius: 3px;
   font-size: 1.4rem;
   font-weight: 600;
@@ -52,18 +53,17 @@ p.texto--blanco{
   white-space: nowrap;
   text-decoration: none;
   text-align: center;
-  transition: all 0.5s ease-in-out;
 }
 .vista .button:hover{
   background-color: var(--morado_fondo_oscuro);
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 10px 20px var(--gris_oscuro);
-  transition: transform 0.4s, box-shadow 0.4s;
+  transition: 0.5s;
 }
 .vista .button:active{
   background-color: var(--verde_inicio);
   transform: scale(1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: 0.5s;
   box-shadow: 0 4px 8px var(--negro_semitransparente);
 }
 .vista{
@@ -79,14 +79,18 @@ p.texto--blanco{
 }
 
 @media (max-width:900px){
+  section.vista{
+    
+    height: 100%;
+    flex-direction: column;
+    background-image: none;
+  }
   .yoga{
     height: fit-content;
   }
-
   h1.vista__title{
     font-size: 3rem;
   }
-
   
   /* primera vista  */
   .lista__item{
@@ -129,11 +133,7 @@ p.texto--blanco{
     min-width: 220px;
     
   }
-  section.vista{
-    height: 100%;
-    flex-direction: column;
-    background-image: none;
-  }
+  
   /* vista instructor contenido */
   .yoga .vista-instructor{
     align-items: flex-start;
@@ -143,15 +143,20 @@ p.texto--blanco{
   .vista-instructor .texto{
     text-align: left;
   }
+  .vista-instructor .vista-instructor-content-img__imagen{
+    width: 100vw;
+    height: auto;
+
+  }
   .vista-instructor .vista-instructor-content-img{
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
     opacity: 0.3;
     z-index: 0;
     position: absolute;
     object-fit: contain;
-    right: 0;
-    left: 0;
   }
   /* vista experiencias */
   .content-img{
@@ -166,14 +171,26 @@ p.texto--blanco{
     text-align: left;
     width: 85%;
   }
+  /* vista 7 frases de motivacion  */
 
-
-
+  /* vista de las carts precios  */
   .vista-precios-cards{
     flex-direction: column;
   }
   .vista-precios-cards-content{
     min-width: 230px;
+    max-width: 300px;
+  }
+  /* vista del footer  */
+  footer.vista-info-contact{
+    height: 100%;
+    flex-direction: column;
+  }
+  .vista-info-contact__mas-info{
+    min-width: 390px;
   }
 
+  .vista-subcripcion-title-content__texto{
+    font-size: 1.5rem;
+  }
 }

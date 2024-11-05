@@ -1,9 +1,29 @@
-.vista-precios{
+.yoga .vista-precios{
     display: flex;
+    padding:10px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: var(--verde_claro);
+    gap: 30px;
+}
+
+.card-content--precios{
+    border-radius: 10px;
+    margin: 0 25px;
+}
+.card-content__title{
+    font-size: 1.8rem;
+    padding: 10px 0px;
+    color: var(--morado_oscuro);
+}
+.card__contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
 }
 
 .vista-precios-title-content{
@@ -12,77 +32,32 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 60%;
-    height: 35%;
-    gap: 20px;
+    width: 80%;
+    height: fit-content;
+    gap: 10px;
 }
 
-.vista-precios-cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 50%;
-    gap: 20px;
-    margin: 35px 10px;
-    color: var(--morado_oscuro);
-}
-.vista-precios-cards-content{
-    width: 30%;
-    max-width: 400px;
-    height: max-content;
-    background-color: var(--blanco);
-    border-radius: 10px;
-    margin: 0 25px;
-}
-.vista-precios-cards-content:hover{
-    box-shadow:  8px 8px 16px var(--morado_oscuro),
-    -8px -8px 16px var(--blanco);
-    transition: box-shadow 0.5s;
-}
-.vista-precios-cards-content__img{
+.content-img__img{
+    width: 23%;
+    height: auto;
     object-fit: contain;
 }
-.vista-precios-cards-content__content-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 50%;
-    width: 100%;
-}
-.vista-precios-cards-content__titulo{
-    font-size: 2rem;
-    padding: 20px 0px 10px 0px;
-    color: var(--morado_oscuro);
-}
-.vista-precios-cards-text{
+
+
+.card-text-button{
     display: flex;
     flex-direction: column;
     padding: 20px;
     text-align: center;
     height: fit-content;
 }
-.vista-precios-cards-text__lore{
-    font-size: 1.1rem;
-    color: var(--morado_oscuro);
+
+.card-content__button{
+    padding: 1vw 0px 1vw 0px;
+    max-width: 90%;
 }
-.vista-precios-cards-content-button{
-    padding: 2vw 0px 2vw 0px;
-}
-.vista-precios-cards-content-button__button-enlace{
-    background-color: var(--morado_oscuro);
-    text-align: center;
-    max-width: 350px;
-    max-height: 100px;
-    padding: 10px 45px;
-    border-radius: 3px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    border: none;
-    color: var(--blanco);
-    white-space: nowrap;
-    text-decoration: none;
+
+
+.text__lore--precios{
+    padding-bottom: 2vw;
 }

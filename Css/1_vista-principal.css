@@ -98,6 +98,8 @@
 
 .texto--page-principal {
   color: var(--morado_oscuro);
+  text-shadow:  1px 1px 5px var(--blanco),
+              -1px -1px 5px var(--blanco);
 }
 .icono{
   color: var(--morado_oscuro);

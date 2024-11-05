@@ -1,14 +1,16 @@
 
 footer.vista-info-contact{
     width: 100%;
-    height: 570px;
+    height: fit-content;
+    padding: 20px 10px;
     background-color: var(--morado_oscuro);
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--blanco);
     align-items: baseline;
     justify-content: space-between;
     gap: 40px;
     padding: 5vw 4vw 20px 4vw;
+    flex-wrap: wrap;
 }
 .vista-info-contact__mas-info{
     height: fit-content;
@@ -25,7 +27,7 @@ footer.vista-info-contact{
 }
 .texto--footer{
     color: var(--blanco);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     
 }
 .vista-info-contact__about{
@@ -96,13 +98,4 @@ li.lista-footer__item--iconos{
     justify-content: start;
     align-items: center;
     gap: 20px;
-}
-@media (max-width:900px){
-    footer.vista-info-contact{
-        height: 100%;
-        flex-direction: column;
-    }
-    .vista-info-contact__mas-info{
-        min-width: 400px;
-    }
 }
