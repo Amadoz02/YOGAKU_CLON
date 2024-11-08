@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  
 }
 .vista__title {
   font-size: 5rem;
@@ -135,20 +134,20 @@ p.texto--blanco{
   }
   
   /* vista instructor contenido */
-  .yoga .vista-instructor{
+  .yoga .vista--instructor{
     align-items: flex-start;
     position: relative;
     background-image: none;
   }
-  .vista-instructor .texto{
+  .vista--instructor .texto{
     text-align: left;
   }
-  .vista-instructor .vista-instructor-content-img__imagen{
+  .vista--instructor .vista-instructor-content-img__imagen{
     width: 100vw;
     height: auto;
 
   }
-  .vista-instructor .vista-instructor-content-img{
+  .vista--instructor .vista-instructor-content-img{
     min-width: 100%;
     height: auto;
     display: flex;
@@ -163,7 +162,7 @@ p.texto--blanco{
     width: 60%;
     height: auto;
   }
-  .yoga .vista-experiences{
+  .yoga .vista--experiences{
     align-items: flex-start;
     background-image: none;
   }
@@ -182,12 +181,13 @@ p.texto--blanco{
     max-width: 300px;
   }
   /* vista del footer  */
-  footer.vista-info-contact{
+  footer.vista--info-contact{
     height: 100%;
     flex-direction: column;
   }
   .vista-info-contact__mas-info{
-    min-width: 390px;
+    min-width: 380px;
+    margin: 10px;
   }
 
   .vista-subcripcion-title-content__texto{

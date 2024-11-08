@@ -1,10 +1,10 @@
-.vista-experieces{
+.vista--experieces{
     gap: 10vw;
     background-color: var(--gris_claro);
     z-index: 2;
     padding: 10px 0;
 }
-.vista-experieces::before{
+.vista--experieces::before{
     content: '';
     position: absolute; 
     background-position: 100% 180%;
@@ -39,7 +39,7 @@
     text-align: left;
 }
 @media (max-width: 800px){
-    .vista-experieces{
+    .vista--experieces{
         flex-direction: column;
         gap: 0;
     }
