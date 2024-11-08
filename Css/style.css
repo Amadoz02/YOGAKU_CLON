@@ -138,17 +138,18 @@ p.texto--blanco{
     align-items: flex-start;
     position: relative;
     background-image: none;
+    height: 80vh;
   }
   .vista--instructor .texto{
     text-align: left;
   }
   .vista--instructor .vista-instructor-content-img__imagen{
-    width: 100vw;
+    width: 100%;
     height: auto;
 
   }
   .vista--instructor .vista-instructor-content-img{
-    min-width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     align-items: center;

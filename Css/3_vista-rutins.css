@@ -45,6 +45,7 @@ font-size: 5rem;
 }
 .card-content{
     width: 20vw;
+    min-width: 210px;
     max-width: 400px;
     height: fit-content;
     min-height: 400px;
